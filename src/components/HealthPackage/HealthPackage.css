@@ -1,0 +1,70 @@
+.box-header-health{
+  display: flex;
+  justify-content: space-between;
+}
+.info-img-avatar-health-products{
+  margin: 10px 5px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.box-container-health {
+  display: grid;
+  height: 272px;
+  grid-template-columns: 1fr; 
+  gap: 10px;
+}
+
+.box-health-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box-health-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.box-header {
+  display: flex;
+  align-items: center;
+}
+
+.health-box-title-subtitle {
+  margin: 12px 0px 0px 5px; 
+}
+.popular-box-discount{
+  color: #c0bfbf;
+  font-size: 10px;
+  margin: 0 5px;
+}
+.health-box-name {
+  font-weight: bold;
+  margin: 0;
+  margin-right: 10px; 
+}
+.three-dots {
+  margin-bottom: 30px;
+}
+.health-box-subtitle {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.forward-arrow {
+  fill: #333333;
+  width: 30px;
+  height: 16px; 
+  margin-left: 10px;
+}

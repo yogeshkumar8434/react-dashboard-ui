@@ -1,0 +1,33 @@
+.main-content {
+  background-color: var(--clr-secondary);
+  flex: 1;
+  padding: 32px;
+}
+.welcome-back-text {
+  color: #6e6e6e;
+}
+
+.user-name-text {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px 0 30px 0;
+}
+@media screen and (max-width: 1400px) {
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.horizontal-line {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

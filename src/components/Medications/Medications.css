@@ -1,0 +1,41 @@
+/* grid c2 */
+.grid-c2 .grid-item {
+  display: flex;
+}
+.grid-c2 .grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  color: black; 
+}
+
+.bio {
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: left;
+  color: #6e6e6e;
+}

@@ -1,0 +1,108 @@
+.box-header-upcoming-con{
+  display: flex;
+  justify-content: space-between;
+}
+.info-img-avatar-upcoming-con-products{
+  margin: 10px 5px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.box-container-upcoming-con {
+  display: grid;
+  height: 272px;
+  grid-template-columns: 1fr; 
+  gap: 10px;
+}
+
+.box-upcoming-con-box {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.box-header {
+  /* display: flex; */
+  align-items: center;
+}
+
+.upcoming-con-box-title-subtitle {
+  margin: 12px 90px  0px 5px; 
+}
+.popular-box-discount{
+  color: #c0bfbf;
+  font-size: 10px;
+  margin: 0 5px;
+}
+.upcoming-con-box-name {
+  font-weight: bold;
+  margin: 0;
+  margin-right: 10px; 
+}
+
+.upcoming-con-box-subtitle {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.forward-arrow {
+  fill: #333333;
+  width: 30px;
+  height: 16px; 
+  margin-left: 10px;
+}
+.upcoming-event-details {
+  margin: 45px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0eded;
+  padding: 10px;
+  color:#8d8d8d;
+  border-radius: 10px;
+}
+
+.calendar-icon,
+.clock-icon {
+  color: #f0eded;
+  margin: 0 5px;
+  width: 16px;
+  height: 16px;
+}
+.event-date{
+  display: flex;
+}
+.event-time{
+  display: flex;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin: 43px 0px 14px 0;
+}
+
+.cancel-button button {
+  background-color: transparent;
+  color: black;
+  border: 1px solid blue;
+  padding: 11px 40px 11px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reschedule-button button {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding: 11px 40px 11px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}

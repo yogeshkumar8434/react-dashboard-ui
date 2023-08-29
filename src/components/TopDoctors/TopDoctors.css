@@ -1,0 +1,190 @@
+/* grid c1 */
+.grid-c1 {
+  display: flex;
+  flex-direction: column;
+}
+.grid-c1-content {
+  background: red;
+  flex: 1;
+  border-radius: 10px;
+  padding: 16px;
+}
+.grid-c-title-icon{
+  display: flex;
+  color: blue;
+}
+.grid-c-title-icon-text{
+  margin-right: 10px;
+}
+.grid-c1-content .lg-value {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #c7c4c6;
+}
+.grid-c-title-text{
+  color: black;
+}
+.grid-c1-content .expiry-text {
+  margin-bottom: 6px;
+}
+.grid-c1-content .card-wrapper {
+  display: flex;
+}
+.grid-c1-content .card-pin-hidden {
+  font-size: 32px;
+  margin-right: 8px;
+}
+.grid-c1-content span {
+  color: #8a8587;
+}
+.grid-c1 .card-logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-c1 .card-logo {
+  display: flex;
+}
+.grid-c1 .logo-shape1,
+.grid-c1 .logo-shape2 {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+.grid-c1 .logo-shape1 {
+  background-color: var(--clr-scarlet-v1);
+  margin-right: -15px;
+  z-index: 0;
+}
+.grid-c1 .logo-shape2 {
+  background-color: var(--clr-yellow);
+}
+
+@media screen and (max-width: 768px) {
+  .grid-c1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+.card-container {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.user-info {
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.specialist {
+  margin: 5px 0;
+  font-size: 12px;
+}
+.forward-arrow{
+  margin-left: 40px;
+}
+.start-icon{
+  margin-right: 10px;
+}
+.rating-section{
+  margin-right: 10px;
+}
+.rating {
+  margin: 5px 0;
+  display: flex;
+  /* align-items: center; */
+  font-size: 12px;
+  color: #6e6e6e;
+}
+
+.rating-label {
+  margin: 0;
+}
+
+.rating-value {
+  margin: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.rating-details {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.rating-details li {
+  margin: 0;
+}
+.card-container {
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.info-img-avatar-card {
+  margin: 10px 5px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.user-info {
+  color: #000;
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.age {
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-label {
+  margin: 0;
+}
+
+.rating-value {
+  margin: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.rating-details {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.rating-details li {
+  margin: 0;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
